@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Home Run Pace</h1>
+
+    <div id="home_runs_box"></div>
+        <label>Home Runs</label>
+        <input id="home_runs_input"> <br>
+    <div></div>
+
+    <div id="games_played_box">
+        <label>Games Played</label>
+        <input id="games_played_input"> <br>
+    </div>
+
+    <div id="league_type_box">
+        <label>League Type</label>
+        <select id="league_type_select">
+            <option value="mlb">MLB</option>
+            <option value="aaa">AAA</option>
+            <option value="aa">AA</option>
+            <option value="a">A</option>
+            <option value="non-professional">Non-Professional</option>
+        </select> <br>
+    </div>
+
+    <!-- This is hidden by default, only shown when League Type = Non-Professional -->
+    <div id="games_in_season_box">
+        <label>Games in Season</label>
+        <input id="games_in_season_input"> <br>
+    </div>
+
+    <div id="player_box">
+        <label>(Optional) Player:</label>
+        <input id="player_input"> <br>
+    </div>
+
+    <br>
+    <button id="submit_button">submit</button>
+
+    <h2 id="home_run_pace"></h2>
+
+    <script src="index.js"></script>
+
+    
+</body>
+</html>
