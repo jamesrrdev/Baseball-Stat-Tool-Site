@@ -1,5 +1,31 @@
+body{
+    text-align: center;
+    font-size: 2em;
+    font-family: Helvetica;
+}
+
 
 /* This is hidden by default */
 #games_in_season_box{
     display: none;
 }
+
+.submitBttn{
+    padding: 5px 10px;
+    font-size: 0.5em;
+    color: white;
+    background-color: hsl(240, 100%, 69%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+
+}
+
+.submitBttn:hover{
+    background-color: hsl(240, 100%, 59%);
+}
+
+#home_run_pace{
+    font-size: 1em;
+}
+

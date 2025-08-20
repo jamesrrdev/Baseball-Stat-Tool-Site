@@ -15,6 +15,8 @@ let projected_home_runs;
 const select_league_type = document.getElementById("league_type_select");
 const games_in_season_box = document.getElementById("games_in_season_box")
 
+const submit_button = document.getElementById("submit_button")
+
 select_league_type.addEventListener("change", () => {
 
     if(select_league_type.value === "non-professional") {
@@ -26,7 +28,7 @@ select_league_type.addEventListener("change", () => {
 
 });
 
-document.getElementById("submit_button").onclick = function(){
+submit_button.onclick = function(){
 
     // Equation
     // Projected Home Runs = Home Runs / Games Played * Games in Season 
